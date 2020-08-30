@@ -1,1 +1,1 @@
-# OTL
+# OTL (Oanda Trading anaLyzer)
