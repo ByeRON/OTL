@@ -19,7 +19,7 @@ class APIWrapper:
 		with open(auth_file) as f:
 			auth_info = json.load(f)
 			return (auth_info['oanda_id'], auth_info['oanda_token'])
-	
+
 	def switch_api_root(self, demo=True):
 		if demo is True:
 			return 'api-fxpractice.oanda.com'
